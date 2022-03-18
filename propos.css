@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+    padding-top: 30px;
+}
+.diarra{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #111;
+}
+.logo{
+   color:#fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+
+
+}
+.logo span{ 
+    color: #da6b1d;
+}
+.navbar{
+    display: flex; 
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+   color:#fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+
+}
+.btn-reser{
+    padding: 10px 20px ;
+    background: #da6b1d;
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 20px;
+    border:2px solid ;
+    letter-spacing: 4px;
+}
+.btn-reser:hover{
+    background: #fb911f;
+    transition: ease-out;
+}
+.navbar li a:hover{
+    color: #da6b1d;
+    border-bottom: 2px solid #fb911f;
+    
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.h2{
+    margin-bottom: 20px; 
+}
+.titre{
+    color: #000;
+    font-size:2em;
+    font-weight:300px;
+    text-transform: capitalize;
+    padding-top: 30px;
+
+}
+.titre span{
+    color: #da6b1d;
+    font-size: 1,5em;
+    font-weight: 700px;
+}
+ .col50 img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+}
+.col50 p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Lyon Display Web LightItalic';
+    line-height: 35px;
+    padding: 0 0 20px 0;
+    font-stretch: normal;
+    font-weight: 300;
+}
+.col50 span{
+    font-size: 40px;
+}
+.copyright{
+    padding: 20px 40px;
+    border-top: 2px solid rgba(0,0,0, 0.1);
+    background: rgba(228, 222, 222);
+    text-align: center;
+
+}
+.copyright p:nth-child(1){
+    color: #333;
+}
+.copyright a{
+    color: #da6b1d;
+}
+.copyright a {
+   color: #da6b1d;
+   text-decoration: none;
+   font-weight: 600;
+   font-style: italic;
+}  
